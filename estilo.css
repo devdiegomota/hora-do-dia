@@ -1,6 +1,9 @@
 body {
     background-color: blue;
     font: normal 15pt arial;
+    padding: 0px 20px;
+    height: 92vh;
+    align-content: center;
 }
 header {
     color: white;
@@ -11,7 +14,7 @@ section {
     background: white;
     border-radius: 10px;
     padding: 15px;
-    width: 500px;
+    max-width: 500px;
     margin: auto;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.538);
 }
@@ -26,5 +29,5 @@ footer {
     font-style: italic;
 }
 #imagem {
-    width: 300px;
+    width: 60%;
 }
