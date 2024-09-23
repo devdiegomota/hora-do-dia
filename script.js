@@ -1,11 +1,11 @@
 function carregar() {
     var msg = window.document.getElementById('msg')
     var img = window.document.getElementById('imagem')
-    var data = new Date()
-    var hora = data.getHours()
+    var data = new Date() // PEGA HORA DO COMPUTADOR
+    var hora = data.getHours() // CAPTA HORA DA DATA
     
 
-    msg.innerHTML = `Agora são ${hora} horas`
+    msg.innerHTML = `Agora são ${hora} horas` // ESCREVE NO LUGAR DA ID
 
     if (hora >= 0 && hora < 12) {
         // BOM DIA
